@@ -1,0 +1,14 @@
+.footer-div {
+  background-color: #0a5c63; /* dark blue like your image */
+  padding: 22px 0;
+  margin-top: 0;
+}
+
+.footer-text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Google Sans Regular";
+  margin: 0;
+}

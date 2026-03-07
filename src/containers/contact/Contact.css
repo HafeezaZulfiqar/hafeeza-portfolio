@@ -1,0 +1,96 @@
+/* MAIN CONTAINER */
+.contact-div-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 120px;
+  background-color: #ffffff;
+}
+
+/* TEXT SECTION */
+.contact-text-div {
+  max-width: 95%;
+}
+
+/* HEADING – SAME AS "PUBLICATIONS" */
+.contact-heading {
+  font-size: 48px;
+  font-weight: 500;
+  color: #0a5c63;
+  margin-bottom: 20px;
+  line-height: 1.2;
+
+  animation-fill-mode: both;
+  animation-duration: 2000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  animation-name: react-reveal-601013550046753-3;
+}
+
+/* DESCRIPTION – SAME AS SUBTITLE TEXT */
+.contact-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #0a5c63;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* EMAIL & PHONE */
+.contact-info p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  margin: 8px 0;
+}
+
+/* IMAGE SECTION */
+.contact-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-profile-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ANIMATION */
+@keyframes react-reveal-601013550046753-3 {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-div-main {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .contact-text-div {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contact-heading {
+    font-size: 36px;
+  }
+
+  .contact-description {
+    font-size: 18px;
+  }
+  .contact-div-main {
+    padding-bottom: 120px;
+  }
+}

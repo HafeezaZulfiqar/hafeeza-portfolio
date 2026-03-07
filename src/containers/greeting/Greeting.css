@@ -1,0 +1,69 @@
+.greeting-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  /* ONLY vertical padding */
+  padding: 60px 20px;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* NAME TEXT */
+.greeting-text {
+  font-size: 56px;
+  margin-bottom: 20px;
+  font-family: "Google Sans Bold";
+
+  background: linear-gradient(90deg, #00b4db, #0083b0, #00bfa5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* SUB TEXT */
+.greeting-text-p {
+  font-size: 20px;
+  max-width: 800px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+/* BUTTON WRAPPER */
+.portfolio-repo-btn-div {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* BUTTON WIDTH CONTROL */
+.portfolio-repo-btn {
+  min-width: 200px;
+}
+
+.portfolio-repo-btn .main-button {
+  width: 100%;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .greeting-text {
+    font-size: 36px;
+  }
+
+  .greeting-text-p {
+    font-size: 16px;
+  }
+
+  .portfolio-repo-btn-div {
+    flex-direction: column;
+  }
+
+  .portfolio-repo-btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}

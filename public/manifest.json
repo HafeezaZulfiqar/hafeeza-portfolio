@@ -1,0 +1,9 @@
+{
+  "name": "masterPortfolio",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [],
+  "short_name": "masterPortfolio",
+  "start_url": ".",
+  "theme_color": "#000000"
+}
