@@ -2,7 +2,7 @@
   "private": true,
   "name": "HafeezaZulfiqarPortfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/HafeezaZulfiqar",
+ 
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
