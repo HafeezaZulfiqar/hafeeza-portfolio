@@ -825,38 +825,37 @@ const projectsHeader = {
     "I build end-to-end AI systems including Retrieval-Augmented Generation (RAG),OCR fine-tuning, computer vision pipelines, audio speaker identification,and intelligent agent-based applications for real-world use cases.",
   avatar_image_path: featuredProjects,
 };
-
-const publicationsHeader = {
-  title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publications = {
+const projects = {
   data: [
     {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      id: "1",
+      name: "Media Headlines OCR Pipeline",
+      createdAt: "2025-01-01T00:00:00Z",
+      description:
+        "AI-powered Urdu & English TV news headline extraction using YOLOv8 OBB, UTRNet, and EasyOCR.",
+      url: "https://github.com/HafeezaZulfiqar/media_headlines",
     },
+
     {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      id: "2",
+      name: "Media Intelligence Suite",
+      createdAt: "2025-01-01T00:00:00Z",
+      description:
+        "End-to-end Urdu broadcast analysis pipeline with Whisper ASR, speaker diarization, AI summaries, and multilingual RAG Q&A.",
+      url: "https://github.com/HafeezaZulfiqar/media_intelligence_suite",
     },
+
     {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      id: "3",
+      name: "Speaker Panels Talkshow Detection",
+      createdAt: "2025-01-01T00:00:00Z",
+      description:
+        "YOLO-based speaker face and speaker name panel detection system for Pakistani TV talk shows.",
+      url: "https://github.com/HafeezaZulfiqar/speaker_panels_talkshow",
     },
   ],
 };
+
 
 // Contact Page
 const contactPageData = {
@@ -879,8 +878,8 @@ export {
   degrees,
   certifications,
   experience,
-  projectsHeader,
-  publicationsHeader,
-  publications,
+ projectsHeader,
+  //publicationsHeader,
+  // publications,
   contactPageData,
 };
