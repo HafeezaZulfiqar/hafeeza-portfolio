@@ -28,7 +28,8 @@ const greeting = {
   subTitle:
     "Passionate AI Engineer focused on building end-to-end AI solutions that create real-world impact. Experienced in AI Agents, RAG systems, and scalable MLOps pipelines, turning data into intelligent, production-ready systems.",
   resumeLink:
-    "https://drive.google.com/drive/folders/1vdGxT_RY_sXGxw90Wy1TW8Ew5sEJZtey",
+  "\HafeezaResume.pdf",
+    // "https://drive.google.com/drive/folders/1vdGxT_RY_sXGxw90Wy1TW8Ew5sEJZtey",
   portfolio_repository: "https://github.com/HafeezaZulfiqar", // MUST have this for Star Me button
   githubProfile: "https://github.com/HafeezaZulfiqar",
   linkedinProfile: "https://www.linkedin.com/in/hafeeza-zulfiqar-7a1632244/",
